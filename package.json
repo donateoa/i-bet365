@@ -1,0 +1,14 @@
+{
+  "name": "i-bet365",
+  "version": "1.0.0",
+  "description": "bet365 crawler",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Alessandro Donateo",
+  "license": "ISC",
+  "dependencies": {
+    "i-log": "^1.0.5"
+  }
+}
