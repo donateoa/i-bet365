@@ -1,5 +1,5 @@
 {
-  "name": "i-bet365",
+  "name": "@alessandro.donateo/i-bet365",
   "version": "1.0.0",
   "description": "bet365 crawler",
   "main": "index.js",
@@ -7,8 +7,23 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Alessandro Donateo",
-  "license": "ISC",
+  "license": "LGPL-3.0",
   "dependencies": {
     "i-log": "^1.0.5"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/donateoa/i-bet365.git"
+  },
+  "keywords": [
+    "web",
+    "crawler",
+    "sportsbook",
+    "bet365"
+  ],
+  "bugs": {
+    "url": "https://github.com/donateoa/i-bet365/issues"
+  },
+  "homepage": "https://github.com/donateoa/i-bet365#readme"
 }
