@@ -16,24 +16,22 @@ $ npm install @alessandro.donateo/i-bet365
 
 ## Configuration
 
-Include module in your custom application
-```sh
-var ibet365 = require("@alessandro.donateo/i-bet365")
+locate the configuration files
+  - production.js
+  - staging.js
+  - development.js
 
+
+```sh
+$ nano node_modules/i-config/development.js
 ```
 
-## Usage
-
-Include module in your custom application
-```sh
-var ibet365 = require("@alessandro.donateo/i-bet365")
-
-```
-
-Run it as server
+Run 
 ```sh
 $ cd i-bet365
-$ forever index.js 
+$ npm start //start with production configuration 
+$ npm start-stage //start with development configuration 
+$ npm start-dev //start with development configuration 
 
 ```
 
