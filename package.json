@@ -16,7 +16,6 @@
     }
   ],
   "dependencies": {
-    "@alessandro.donateo/i-http-client": "^1.2.1",
     "amqp": "^0.2.6",
     "http": "0.0.0",
     "i-config": "^1.0.2",
@@ -31,7 +30,8 @@
     "web",
     "crawler",
     "sportsbook",
-    "bet365"
+    "bet365",
+    "grabber"
   ],
   "bugs": {
     "url": "https://github.com/donateoa/i-bet365/issues"
