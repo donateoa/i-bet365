@@ -5,17 +5,22 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "DEBUG=*  NODE_ENV=prod node ./index.js",
-    "start-stage": "DEBUG=*  NODE_ENV=stage node ./index.js",
-    "start-dev": "DEBUG=*  NODE_ENV=dev node ./index.js"
+    "start": "DEBUG=*  NODE_ENV=dev node ./index.js"
   },
   "author": "Alessandro Donateo",
-  "license": "LGPL-3.0",
+  "license": "MIT",
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://raw.githubusercontent.com/donateoa/i-bet365/master/LICENSE"
+    }
+  ],
   "dependencies": {
+    "@alessandro.donateo/i-http-client": "^1.2.1",
     "amqp": "^0.2.6",
     "http": "0.0.0",
     "i-config": "^1.0.2",
-    "i-log": "^1.1.0"
+    "i-log": "^1.1.4"
   },
   "devDependencies": {},
   "repository": {
