@@ -1,6 +1,6 @@
 {
   "name": "@alessandro.donateo/i-bet365",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "bet365 crawler",
   "main": "index.js",
   "scripts": {
