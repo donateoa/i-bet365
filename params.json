@@ -1,6 +1,0 @@
-{
-  "name": "I-bet365",
-  "tagline": "Web crawler",
-  "body": "# i-bet365\r\ni-bet365 is a private module, if you are a contributor please direct to [info@isitech.biz](mailTo://info@isitech.biz).\r\n\r\nBet365 web crawler. The module return the price of 3 way (1X2) for all soccer matches published on bet365.com.\r\nIt cames wiht the following properties: \r\n- write the output as file.\r\n- call http service passing the output as parameter\r\n- configurable time to pull data\r\n- compatible with i-alert and i-monitor modules\r\n \r\n\r\n## Install\r\n\r\n```sh\r\n$ npm install @alessandro.donateo/i-bet365\r\n```\r\n\r\n## Configuration\r\n\r\nInclude module in your custom application\r\n```sh\r\nvar ibet365 = require(\"@alessandro.donateo/i-bet365\")\r\n\r\n```\r\n\r\n## Usage\r\n\r\nInclude module in your custom application\r\n```sh\r\nvar ibet365 = require(\"@alessandro.donateo/i-bet365\")\r\n\r\n```\r\n\r\nRun it as server\r\n```sh\r\n$ cd i-bet365\r\n$ forever index.js \r\n\r\n```\r\n\r\nSoftware release with GNU LESSER GENERAL PUBLIC LICENSE",
-  "note": "Don't delete this file! It's used internally to help with page regeneration."
-}
