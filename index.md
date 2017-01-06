@@ -1,41 +1,23 @@
 # i-bet365
-i-bet365 is a private module, if you are a contributor please direct to [info@isitech.biz](mailTo://info@isitech.biz).
+This software is distributed just as it is, for demonstration purposes only. No support is guaranteed. Any feedback is welcome and if you want to contribute please use the pull requests.
 
-Bet365 web crawler. The module return the price of 3 way (1X2) for all soccer matches published on bet365.com.
-It cames wiht the following properties: 
-- write the output as file.
-- call http service passing the output as parameter
-- configurable time to pull data
-- compatible with i-alert and i-monitor modules
- 
+Have new request? write to info@isitech.biz
 
-## Install
 
+## Run the demo
+
+Open a command line terminal and type:
 ```sh
 $ npm install @alessandro.donateo/i-bet365
-```
-
-## Configuration
-
-Include module in your custom application
-```sh
-var ibet365 = require("@alessandro.donateo/i-bet365")
-
-```
-
-## Usage
-
-Include module in your custom application
-```sh
-var ibet365 = require("@alessandro.donateo/i-bet365")
-
-```
-
-Run it as server
-```sh
 $ cd i-bet365
-$ forever index.js 
+$ npm start
+```
+You shoud see the output in the consolle.
 
+If you prefer you can use git.
+```sh
+$ git clone https://github.com/donateoa/i-bet365.git
+$ cd i-bet365
+$ npm start
 ```
 
-Software release with GNU LESSER GENERAL PUBLIC LICENSE
