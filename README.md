@@ -1,5 +1,5 @@
 # i-bet365
-This software is distributed just as it is, for demonstration purposes only. No support is guaranteed. Any feedback is welcome and if you want to contribute please use the pull requests.
+This software is distributed just as it is, for demonstration purposes only. No support is guaranteed. Any feedback is welcome and. Use the pull requests for your contribution.
 
 Have new request? write to info@isitech.biz
 
