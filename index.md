@@ -6,10 +6,13 @@ For any information write to info@isitech.biz
 
 ## Install
 via npm
+
 ```sh
 $ npm install @alessandro.donateo/i-bet365
 ```
+
 via git
+
 ```sh
 $ git clone https://github.com/donateoa/i-bet365.git
 ```
